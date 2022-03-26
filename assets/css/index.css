@@ -6,6 +6,7 @@
 
 h5 {
     font-weight: 600;
+    color: #9381ff;
 }
 
 blockquote {
@@ -13,4 +14,50 @@ blockquote {
     background: #ffffff;
     border-left: 3px solid #9381ff;
     display: block;
+}
+
+wrap {
+    color: grey;
+}
+
+.miniText {
+    font-size: 13px;
+}
+
+.card {
+    border: 0;
+    border-radius: 0px;
+    background-color: #f8f7ff;
+    color: black;
+}
+
+.card:hover > .card-title{
+    color: #9381ff;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    font-weight: 300;
+    color: grey;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.img-container {
+    overflow: hidden;
+}
+
+.card > .img-container > .card-img-top {
+    border-radius: 0;
+    transition: transform .5s ease;
+}
+
+.card:hover > .img-container > .card-img-top {
+    transform: scale(1.075);
 }
