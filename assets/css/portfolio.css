@@ -20,4 +20,5 @@ a > h4{
 
 a:hover > h4 {
     color: #9381ff;
+    text-decoration: none;
 }
