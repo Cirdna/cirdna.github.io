@@ -49,6 +49,22 @@ footer {
 	width: 100%;
 }
 
-/* .active > a.nav-link {
-    color: #9381ff;
-} */
+.active > .nav-link {
+    color: #9381ff !important;
+}
+
+.button-light {
+	background-color: #f8f7ff;
+	color: grey;
+	border: 2px solid grey;
+	border-radius: 0;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.button-light:hover {
+	font-weight: 500;
+	transform: scale(1.05) perspective(1px);
+	color: #9381ff;
+	border: 2px solid #9381ff;
+}
