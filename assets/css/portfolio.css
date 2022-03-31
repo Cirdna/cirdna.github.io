@@ -12,3 +12,7 @@ p {
     font-size: 18px;
     font-weight: 300;
 }
+
+a:hover > h4 {
+    color: #9381ff;
+}
