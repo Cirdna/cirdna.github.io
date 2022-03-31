@@ -18,6 +18,10 @@ a > h4{
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 a:hover > h4 {
     color: #9381ff;
     text-decoration: none;
